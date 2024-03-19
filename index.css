@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin :0px;
+    font-family: "Arya", sans-serif;
+}
+.navbar{
+    height: 60px;
+}
+.company{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.box{
+    color: white;
+    background-color: blueviolet;
+    display: inline-block;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem ;
+    flex-direction: column;
+
+}
+.text {
+   font-size: 1.5rem;
+    width: 50rem;
+    text-align: center;
+}
+
+
+.breaker{
+    width: 40%;
+    border-top: 2px dashed blueviolet;
+    margin-top: 1rem;
+}
+
+.heading
+{
+    text-align: center;
+    margin: 2rem;
+}
+
+.management{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.members{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+img{
+    height: 12rem;
+
+}
+
+
+.development{
+    margin-top: 2rem;
+}
+
+.shape1{
+    width: 150px;
+	height: 60px;
+	background: blueviolet;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    float: right;
+}
+.shape{
+    width: 150px;
+	height: 60px;
+	background: blueviolet;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+.header{
+    display: flex;
+}
+
+#salesInside{
+   
+    width: 90%;
+}
+#salesHeader{
+    margin-left: 9rem;
+}
+
+.inside{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+
+}
+p{
+    font-style: italic;
+    font-weight: lighter;
+    color: blueviolet;
+}
+
+@media only screen and (max-width: 600px) {
+    .text{
+        font-size: 0.9rem;
+        width: 20rem;
+    }
+  }
